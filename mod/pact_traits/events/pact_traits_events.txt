@@ -1,0 +1,79 @@
+namespace = PactTraits
+
+
+character_event = {
+    id = PactTraits.1
+
+    is_triggered_only = yes
+
+    hide_window = yes
+
+    trigger = {
+        is_alive = yes
+    }
+
+    immediate = {
+
+        # Remove old traits
+        remove_trait = close_relative
+        remove_trait = ally
+        remove_trait = active_nap
+        remove_trait = potential_nap
+
+        any_playable_ruler = {
+            limit = { ai = no }
+            ROOT = {
+
+                # break for player??
+
+                if = {
+                    limit = {
+                        is_close_relative = PREV
+                        # Not spouse? May confuse Zoroastrians...
+                    }
+                    add_trait = close_relative  # To be used for finding potential direct allies OR unlanded relatives to use as nap bait
+                }
+
+                if = {
+                    limit = {
+                        is_allied_with = PREV
+                    }
+                    add_trait = ally
+                    break = yes
+                }
+
+                if = {
+                    limit = {
+                        has_non_aggression_pact_with = PREV
+                    }
+                    add_trait = active_nap
+                    break = yes
+                }
+
+                if = {
+                    limit = {
+                        # First clause helps prevent false positives, in part due to spouse counting as a "close relative"
+                        # and messing up the second clause.
+                        NOT = {
+                            is_close_relative = PREV
+                        }
+                        OR = {
+                            # Spouse of relative (Savoy -> HRE)
+                            any_spouse = {
+                                is_close_relative = PREVPREV
+                            }
+
+                            # Relatives on both sides
+                            any_close_relative = {
+                                any_spouse = {
+                                    is_close_relative = PREVPREVPREV
+                                }
+                            }
+                        }
+                    }
+                    add_trait = potential_nap
+                }
+            }
+        }
+    }
+}

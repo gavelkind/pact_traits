@@ -1,0 +1,19 @@
+close_relative = {
+    customizer = no
+    random = no
+}
+
+ally = {
+    customizer = no
+    random = no
+}
+
+active_nap = {
+    customizer = no
+    random = no
+}
+
+potential_nap = {
+    customizer = no
+    random = no
+}

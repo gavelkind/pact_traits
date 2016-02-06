@@ -1,0 +1,12 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+# Decisions
+recompute_pact_traits_decision;Recompute pact traits;;;;;;;;;x
+recompute_pact_traits_decision_desc;Update pact traits for all characters, immediately. (Normally happens yearly.);;;;;;;;;;;;;x
+recompute_pact_traits_decision.tooltip;This will take a few seconds.;;;;;;;;;;;;;x
+
+# Traits
+close_relative_desc;This character is a close relative, so we can negotiate a non-aggression pact or alliance with them. We can also negotiate non-aggression pacts with their spouse and spouse's close relatives.;;;;;;;;;;;;;x
+ally_desc;We have an alliance with this character.;;;;;;;;;;;;;x
+active_nap_desc;We have a non-aggression pact with this character.;;;;;;;;;;;;;x
+potential_nap_desc;Marriage ties may allow us to negotiate a non-aggression pact with this character.;;;;;;;;;;;;;x

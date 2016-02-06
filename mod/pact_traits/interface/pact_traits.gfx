@@ -1,0 +1,35 @@
+spriteTypes = {
+
+    spriteType = {
+        name = "GFX_trait_close_relative"
+        texturefile = "gfx/traits/trait_close_relative.tga"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+    }
+
+    spriteType = {
+        name = "GFX_trait_ally"
+        texturefile = "gfx/traits/trait_ally.tga"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+    }
+
+    spriteType = {
+        name = "GFX_trait_active_nap"
+        texturefile = "gfx/traits/trait_active_nap.tga"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+    }
+
+    spriteType = {
+        name = "GFX_trait_potential_nap"
+        texturefile = "gfx/traits/trait_potential_nap.tga"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+    }
+
+}

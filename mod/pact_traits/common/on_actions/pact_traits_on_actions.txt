@@ -1,0 +1,13 @@
+# Recompute traits for each character on startup and yearly
+
+on_startup = {
+    events = {
+        PactTraits.1
+    }
+}
+
+on_yearly_pulse = {
+    events = {
+        PactTraits.1
+    }
+}
