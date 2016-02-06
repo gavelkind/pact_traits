@@ -1,6 +1,6 @@
-This mod for Crusader Kings II helps players negotiate ''non-aggression pacts'' and ''alliances''.
+This mod for Crusader Kings II helps players negotiate *non-aggression pacts* and *alliances*.
 
-These pacts can be negotiated based on marriages between ''close relatives'' of each ruler. Close relatives are children, siblings, aunts/uncles, nieces/nephews, grandparents, and grandchildren. With dozens of close relatives, many of whom have spouses with large families of their own, it can be difficult to keep track of who you might be able to ally with.
+These pacts can be negotiated based on marriages between *close relatives* of each ruler. Close relatives are children, siblings, aunts/uncles, nieces/nephews, grandparents, and grandchildren. With dozens of close relatives, many of whom have spouses with large families of their own, it can be difficult to keep track of who you might be able to ally with.
 
 This mod adds four traits:
 
