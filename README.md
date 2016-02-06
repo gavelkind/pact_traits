@@ -9,7 +9,7 @@ This mod adds four traits:
 * ![icon](icons/trait_active_nap.png) - `active_nap` - your non-aggression pacts
 * ![icon](icons/trait_potential_nap.png) - `potential_nap` - characters whose close relatives are married to yours; those who are rulers can negotiate non-aggression pacts followed by alliances
 
-You can search for characters with these traits by typing trait names in the Character Finder. In the following example, William of Normandy searched for `potential_nap` to find allies for his was on England. He can negotiate a pact with Thibault of Champagne because William's half-sister Adelaide is married to Thibault's nephew Eudes.
+You can search for characters with these traits by typing the trait names in the Character Finder. In the following example, Duke William of Normandy searched for `potential_nap` to find allies for his war on England. He can negotiate a pact with Duke Thibault of Champagne because William's half-sister Adelaide is married to Thibault's nephew Eudes.
 
 ![screenshot](https://www.squarefree.com/crusaderkings/screenshots/pact_traits_1.png)
 
